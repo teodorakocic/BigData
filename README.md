@@ -40,7 +40,7 @@ Follow the next commands in order to start projects:
   - execute script [start_project3a.sh](./Project/scripts/start_project3a.sh):
       - *./scripts/start_project3a.sh*
   - run file [producer_kafka.py](./Project/producer_kafka.py):
-      - *python producer_kafka.py*\
+      - *python producer_kafka.py*
       
  ***3. Project -*** **CLASSIFICATION** :
   - position yourself in folder [Project](./Project)
