@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  train-model:
+    build: ./app3-training/
+    image: train-model:latest
+    container_name: app3
+    environment:
+      SPARK_MASTER_NAME: spark-master
+      SPARK_MASTER_PORT: 7077
+      ENABLE_INIT_DAEMON: "false"

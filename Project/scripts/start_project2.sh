@@ -1,0 +1,1 @@
+docker-compose -f docker-compose-2.yml build && docker-compose -f docker-compose-2.yml run kafka-consumer 

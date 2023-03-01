@@ -1,0 +1,1 @@
+docker-compose -f docker-compose-3-train.yml build && docker-compose -f docker-compose-3-train.yml run train-model

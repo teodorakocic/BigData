@@ -1,0 +1,1 @@
+docker-compose -f docker-compose-3-classification.yml build && docker-compose -f docker-compose-3-classification.yml up -d

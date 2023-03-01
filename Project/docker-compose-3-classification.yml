@@ -1,0 +1,33 @@
+version: "3"
+
+services:
+  classification-model:
+    build: ./app3-classification/
+    image: classification-model:latest
+    container_name: app3
+    environment:
+      SPARK_MASTER_NAME: spark-master
+      SPARK_MASTER_PORT: 7077
+      ENABLE_INIT_DAEMON: "false"
+      SPARK_SUBMIT_ARGS: "--packages org.apache.spark:spark-streaming-kafka-0-8_2.11:2.4.3"
+      WINDOW_DURATION_IN_SECONDS: 2
+      INFLUXDB_HOST: influxdb
+      INFLUXDB_PORT: 8086
+      INFLUXDB_USERNAME: admin
+      INFLUXDB_PASSWORD: admin
+      INFLUXDB_DATABASE: classification
+  influxdb:
+    image: influxdb:1.8
+    ports:
+      - "0.0.0.0:8086:8086"
+    container_name: influxdb
+    hostname: influxdb
+    environment:
+      - INFLUXDB_ADMIN_ENABLED=true
+      - INFLUXDB_DB=classification
+  grafana:
+    image: grafana/grafana
+    ports:
+      - "0.0.0.0:3000:3000"
+    container_name: grafana
+    hostname: grafana

@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  kafka-consumer:
+    build: ./app2/
+    image: consumer:latest
+    container_name: app2
+    ports:
+      - "4040:4040"
+    depends_on:
+      - cassandra
+    environment:
+      SPARK_MASTER_NAME: spark-master
+      SPARK_MASTER_PORT: 7077
+      SPARK_SUBMIT_ARGS: "--packages org.apache.spark:spark-streaming-kafka-0-8_2.11:2.4.3"
+      ENABLE_INIT_DAEMON: "false"
+      WINDOW_DURATION_IN_SECONDS: 2
+
+  cassandra:
+    image: cassandra
+    container_name: cassandra-node
+    expose:
+      - "9042"
+    ports:
+      - "9042:9042"
+    volumes:
+      - cassandra_data:/var/lib/cassandra 
+
+volumes:
+  cassandra_data:

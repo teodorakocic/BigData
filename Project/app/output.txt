@@ -1,0 +1,24 @@
+The lowest standard deviation for the trip duration is for the route Broadway & Berry St-E 30 St & Park Ave S.
+Subscribers have average trip duration time of 12.752130037959196 minutes, while the same parametes is 25.458552089991052 minutes for the Customers.
+Number of riders who are 16 years old is 3053 and average riding time for those riders is 792.7605633802817 seconds.
+Number of riders who are 17 years old is 4398 and average riding time for those riders is 781.8703956343793 seconds.
+Number of riders who are 18 years old is 8004 and average riding time for those riders is 746.9172913543229 seconds.
+Number of riders who are 22 years old is 40451 and average riding time for those riders is 741.2251860275395 seconds.
+Number of riders who are 23 years old is 73121 and average riding time for those riders is 727.6273710698705 seconds.
+Number of riders who are 21 years old is 29886 and average riding time for those riders is 639.4023288496286 seconds.
+Number of riders who are 19 years old is 13285 and average riding time for those riders is 622.0160331200602 seconds.
+Number of riders who are 20 years old is 23491 and average riding time for those riders is 616.4971265591078 seconds.
+Number of bike rides that ended on the Avenue 'E 13 St & Avenue A' is 15074 with mean time of 773.0951306886029 seconds.
+Number of bike rides that ended on the Avenue 'E 9 St & Avenue C' is 11409 with mean time of 774.7850819528443 seconds.
+Number of bike rides that ended on the Avenue 'E 2 St & Avenue B' is 15042 with mean time of 801.3648451003855 seconds.
+Number of bike rides that ended on the Avenue 'E 7 St & Avenue A' is 12676 with mean time of 803.0022877879458 seconds.
+Number of bike rides that ended on the Avenue 'E 5 St & Avenue C' is 6645 with mean time of 807.2484574868322 seconds.
+Number of bike rides that ended on the Avenue 'E 6 St & Avenue B' is 13241 with mean time of 809.2239256853712 seconds.
+Number of bike rides that ended on the Avenue 'E 2 St & Avenue C' is 7560 with mean time of 855.6257936507936 seconds.
+Number of bike rides that ended on the Avenue 'Avenue D & E 8 St' is 3434 with mean time of 891.8803145020385 seconds.
+Number of bike rides that ended on the Avenue 'Avenue D & E 3 St' is 4240 with mean time of 903.0268867924528 seconds.
+Number of bike rides that ended on the Avenue 'E 14 St & Avenue B' is 10496 with mean time of 917.922256097561 seconds.
+Number of bike rides that ended on the Avenue 'E 6 St & Avenue D' is 4876 with mean time of 1030.3999179655455 seconds.
+Number of bike rides that ended on the Avenue 'E 10 St & Avenue A' is 15715 with mean time of 1047.9067769646833 seconds.
+Number of bike rides that ended on the Avenue 'Avenue D & E 12 St' is 1991 with mean time of 1376.95429432446 seconds.
+Woman who spent the most time driving, rode a bicycle overall 587.0263888888888 hours.
